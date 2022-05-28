@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Iconos bs -->
+  <link rel="stylesheet" href="css/main.css">
+  <title>UTN-FRT</title>
+</head>
+
+<body class="bg-light">
+
+  <!-- Encabezado -->
+  <header class="container-fluid bg-dark d-flex justify-content-center">
+    <p class="text-light mb-0 p-1 fs-6">UTN - Facultad Regional Tucumán</p>
+  </header>
+
+
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-primary fs-4 fw-bold">UTN-FRT</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Carreras</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#establecimiento">Establecimiento</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion-contacto">Consultas</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  
+  <!-- Slider -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="3000">
+        <!-- data-bs-interval velocidad del slider -->
+        <img src="img/slide1.jpg" class="d-block w-100" alt="slide1">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="img/slide2.jpg" class="d-block w-100" alt="slide2">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="img/slide3.jpg" class="d-block w-100" alt="slide3">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- Tajetas -->
+  <div class="row row-cols-1 row-cols-md-2 g-3 p-5 m-3 ">
+    <div class="col-lg-3">
+      <div class="card">
+        <section class="tarjeta">
+          <img src="img/color.png" alt="" class="container-fluid p-1">
+          <a class="dentro" href="https://www.radioutn.com.ar/" target="_blank">Radio UTN</a>
+        </section>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card">
+        <section class="tarjeta">
+          <img src="img/color.png" alt="" class="container-fluid p-1">
+          <a class="dentro" href="https://frt.cvg.utn.edu.ar/" target="_blank">Campus Virtual</a>
+        </section>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card">
+        <section class="tarjeta">
+          <img src="img/color.png" alt="" class="container-fluid p-1">
+          <a class="dentro" href="http://sysacad.frt.utn.edu.ar/" target="_blank">Sistema Académico</a>
+        </section>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card">
+        <section class="tarjeta">
+          <img src="img/color.png" alt="" class="container-fluid p-1">
+          <a class="dentro" href="http://www.frt.utn.edu.ar/academia/" target="_blank">Academia Cisco</a>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Intro Carreras-->
+  <section class="w-70 mx-auto text-center pt-4" id="intro">
+    <p class="p-3 fs-3 border-top border-2 text-primary">CARRERAS</p>
+    <p class="fs-5">Nuestra oferta académica se ha enriquecido notablemente, ofreciendo un amplio espectro de
+      posibilidades de estudio.</p>
+  </section>
+
+  <!-- Carreras -->
+  <section class="container-fluid pt-4 mt-5">
+    <div class="row w-75 mx-auto servicio-fila ">
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-1 icono-wrap">
+        <img src="img/graduado.png" alt="desarrollo" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-2 px-4 pb-1 text-primary">GRADO</h3>
+          <p class="px-4">Ing. Civil</p>
+          <p class="px-4">Ing. en Sistemas</p>
+          <p class="px-4">Ing. Electrónica</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-1 icono-wrap">
+        <img src="img/graduado.png" alt="desarrollo" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-2 px-4 pb-1 text-primary">PREGRADO</h3>
+          <p class="px-4">Programación</p>
+          <p class="px-4">Mecatrónica</p>
+          <p class="px-4">Higiene y Seguridad</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-1 icono-wrap">
+        <img src="img/graduado.png" alt="desarrollo" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-2 px-4 pb-1 text-primary">POSGRADO</h3>
+          <p class="px-4">Maestria en Docencia</p>
+          <p class="px-4">Esp. en Ing. en Sistemas</p>
+          <p class="px-4">Esp. en Ing. Gerencial</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-1 icono-wrap">
+        <img src="img/graduado.png" alt="desarrollo" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-2 px-4 pb-1 text-primary">LICENCIATURA</h3>
+          <p class="px-4">Tecnología Educativa</p>
+          <p class="px-4">Higiene y Seguridad</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Establecimiento -->
+  <section>
+    <div class="row row-cols-1 row-cols-md-2 g-5 p-5 text-center" id="establecimiento">
+      <div class="col">
+        <div class="card m-5">
+          <img src="img/campus.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CAMPUS</h5>
+            <p class="card-text">El campus cuenta con espacios funcionales,
+              rodeados de zonas verdes. Dispone de unidades académicas, administrativas, aulas,
+              anfiteatros, biblioteca, zonas de estudio, laboratorios, talleres, sala de informática,
+              salón de actos, centro cultural, jardines y cafetería.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card m-5">
+          <img src="img/biblioteca.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BIBLIOTECA</h5>
+            <p class="card-text">La Biblioteca propicia las fuentes bibliográficas, posibilita la
+              adaptación de nuevas tecnologías informáticas, apoya la labor académica, docente e investigativa y
+              presta los servicios que le permitan a la comunidad educativa ser agentes propios de su perfeccionamiento.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Ubicacion -->
+    <div id="local" class="border-top border-2">
+      <a href="https://www.google.com.ar/maps/place/Universidad+Tecnol%C3%B3gica+Nacional+-+
+      Facultad+Regional+Tucum%C3%A1n/@-26.8170952,-65.200722,17z/data=!3m1!4b1!4m5!3m4!1s0x9
+      4225c23b7b6e863:0x976c9adc5013942c!8m2!3d-26.8171!4d-65.1985333" class="container-fluid" target="_blank">
+        <div class="mapa"></div>
+      </a>
+      <div>
+        <div class="wrapper">
+          <h2 class="text-primary mb-4" id="typewriter"></h2>
+          <h3>Rivadavia 1050, San Miguel de Tucumán.</h3>
+          <p class="fs-5 text-body">
+            La Facultad Regional Tucumán cuenta en la actualidad con más de 13.000 alumnos activos
+            entre carreras de grado, posgrado, pregrado y licenciaturas.
+          </p>
+
+          <section id="numeros-local">
+            <div>
+              <p class="text-primary fs-4">Teléfonos sede Central</p>
+              <p>(0381) 4217150</p>
+              <p>4307387</p>
+              <p>4307385 - Interno 200</p>
+            </div>
+            <div>
+              <p class="text-primary fs-4">Información: CIU (Centro de Información Universitaria)</p>
+              <p>Lunes a Viernes de 9 a 13 hs y 15 a 21 hs</p>
+              <p>(0381) 4227750</p>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Formulario (background) -->
+  <section id="seccion-contacto" class="border-bottom border-secondary border-2 bg-dark">
+
+    <!-- Formulario -->
+    <div class="container" id="contenedor-formulario">
+      <div id="titulo-formulario" class="text-center mb-4">
+        <div><img src="img/consulta.png" alt="contacto" class="img-fluid"></div>
+        <br>
+        <h2>CONSULTAS</h2>
+        <p class="fs-6">Realiza tu consulta en los siguientes enlaces</p>
+        <br>
+        <p class="fs-4 text-primary">Email</p>
+        <a href="mailto:utn.frt@gmail.com" class="fs-5 text-dark">utn.frt@gmail.com</a>
+        <br><br>
+        <p class="fs-4 text-primary">Whatsapp</p>
+        <a href="https://wa.me/00000000000" target="_blank"><i id="wp" class="bi bi-whatsapp"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Pie de pagina -->
+  <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap bg-dark">
+    <p class="fs-5 px-3 pt-3">UTN &copy; Todos los derechos reservados.</p>
+    <div id="iconos">
+      <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+  <!-- cdn js para efecto -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
